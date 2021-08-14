@@ -1,18 +1,11 @@
 #include <stdio.h>
+#include <string.h>
 #include "functions.h"
 
 int main() {
-
-    int a, b, s;
-  
-  // ENTRADA DE DADOS
-  scanf("%d %d", &a, &b);
-
-  // PROCESSAMENTO - EXECUTANDO A FUNCAO
-  s = somar(a, b);
-
-  // SAIDA - IMPRIMINDO O RESULTADO
-  printf("SOMA = %d\n", s);
-
-  return(0);
+  int n;
+  char vet[n];
+  scanf("%[^\n]", vet);
+  n = strlen(vet);
+  numero_vogais(vet);
 }
