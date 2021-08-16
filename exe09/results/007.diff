@@ -1,0 +1,21 @@
+1,7c1,12
+< AABBB
+< ABABB
+< ABBAB
+< ABBBA
+< BABBA
+< BBABA
+< BBBAA
+---
+> AABBB
+> AABBB
+> AABBB
+> AABBB
+> ABABB
+> ABBAB
+> ABBBA
+> ABBBA
+> BABBA
+> BBABA
+> BBBAA
+> BBBAA
